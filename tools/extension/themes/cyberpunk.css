@@ -1,0 +1,8 @@
+/* Cyberpunk (neon) */
+:root { color-scheme: dark; }
+html, body { background: #0a0012 !important; color: #e8e8ff !important; }
+a { color: #ff2bd6 !important; }
+header, nav, aside { background: #0a0012 !important; }
+[data-testid="primaryColumn"],
+[data-testid="sidebarColumn"] { background: #12001f !important; }
+article[role="article"] { background: #10001b !important; border: 1px solid #3b005f !important; border-radius: 12px !important; }

@@ -1,0 +1,8 @@
+/* Pastel Light */
+:root { color-scheme: light; }
+html, body { background: #fbfbff !important; color: #404854 !important; }
+a { color: #8aa1ff !important; }
+header, nav, aside { background: #f2f4ff !important; }
+[data-testid="primaryColumn"],
+[data-testid="sidebarColumn"] { background: #f7f8ff !important; }
+article[role="article"] { background: #ffffff !important; border: 1px solid #e6e9ff !important; border-radius: 12px !important; }

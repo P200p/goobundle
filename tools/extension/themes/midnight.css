@@ -1,0 +1,8 @@
+/* Midnight theme: deep blue blacks */
+:root { color-scheme: dark; }
+html, body { background: #0a0f1a !important; color: #e5ecf4 !important; }
+a { color: #4ea3ff !important; }
+header, nav, aside { background: #0a0f1a !important; }
+[data-testid="primaryColumn"],
+[data-testid="sidebarColumn"] { background: #0d1524 !important; }
+article[role="article"] { background: #0b1220 !important; border: 1px solid #0f1b31 !important; border-radius: 12px !important; }

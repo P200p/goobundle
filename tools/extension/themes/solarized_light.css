@@ -1,0 +1,64 @@
+:root { color-scheme: dark; }
+html, body { background: #0bf403c2 !important; color: #84ff00 !important; }
+a { color: #04e62d !important; }
+header, nav, aside { background: #2bea05d0 !important; }
+[data-testid="primaryColumn"],
+[data-testid="sidebarColumn"] { background: #0cf368b4 !important; }
+article[role="article"] {
+  background: #01a1c9d5 !important;
+  box-shadow: 0 0 0 1px #f40000 inset !important;
+  border-left: 4px solid #ff0707 !important;
+  border: 1px solid #f40000 !important;
+  box-shadow: 0 0 0 1px #2900f4 inset !important;
+  border-radius: 12px !important;
+}
+/* Vibrant Purple theme: high contrast, clear layer separators */
+:root {
+  --bg: #003feb;
+  --panel: #9708a9;
+  --text: #ff0a0a;
+  --link: #ff0000;
+  --subtle: #000000;
+  --dimmed: #0688fa;
+  --shadow: #000000;
+  --muted: #020104;
+  --highlight: #0000ff;
+  --accent: #ff00f5;
+  --border: #fd03f9;
+  --border-strong: #0c00f6;
+  --focus: #ff0000;
+}
+/* Vibrant Blue theme: high contrast, clear layer separators */
+
+
+html, body { background: var(--bg) !important; color: var(--text) !important; }
+a { color: var(--accent) !important; }
+
+header, nav, aside { background: var(--bg) !important; border-bottom: 1px solid var(--border) !important; }
+[data-testid="primaryColumn"], [data-testid="sidebarColumn"] { background: var(--bg) !important; }
+
+article[role="article"] {
+  background: var(--panel) !important;
+  border: 2px solid var(--border-strong) !important;
+  border-left: 4px solid var(--accent) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 2px 0 var(--accent), 0 0 0 1px var(--border) inset !important;
+}
+
+div[role="separator"], hr {
+  height: 0 !important;
+  border: 0 !important;
+  border-top: 1px dashed var(--border-strong) !important;
+}
+
+[role="textbox"], textarea, input {
+  background: var(--panel) !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border-strong) !important;
+  box-shadow: 0 0 0 1px var(--accent) inset !important;
+}
+
+/* Buttons: increase saturation */
+[data-testid="tweetButtonInline"], [role="button"] {
+  filter: saturate(1.2);
+}

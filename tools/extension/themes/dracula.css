@@ -1,0 +1,8 @@
+/* Dracula-like theme */
+:root { color-scheme: dark; }
+html, body { background: #282a36 !important; color: #f8f8f2 !important; }
+a { color: #8be9fd !important; }
+header, nav, aside { background: #282a36 !important; }
+[data-testid="primaryColumn"],
+[data-testid="sidebarColumn"] { background: #303246 !important; }
+article[role="article"] { background: #2a2c3c !important; border: 1px solid #44475a !important; border-radius: 12px !important; }

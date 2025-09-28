@@ -1,0 +1,9 @@
+[
+  { "id": "monitor",   "name": "Monitor",   "url": "monitor.js",   "description": "หน้าจอติดตาม/มอนิเตอร์" },
+  { "id": "theme",     "name": "Theme",     "url": "Theme.js",     "description": "สลับธีม/ตั้งค่าธีม" },
+  { "id": "snipers",   "name": "Snipers",   "url": "snipers.js", "description": "ตัวช่วยกด/คลิกอัตโนมัติด้วย CSS Selector" },
+  { "id": "burpshark", "name": "BurpShark", "url": "burpshark.js", "description": "แปลง/ฟอร์แมตรูปแบบ HTTP Request" },
+  { "id": "sharkscan", "name": "SharkScan", "url": "sharkscan.js", "description": "ปุ่ม recon เบื้องต้น (whois/dns/headers)" },
+  { "id": "postshark", "name": "PostShark", "url": "postshark.js", "description": "MiniPostman: ส่ง HTTP Request + Auto-fix JSON Header" },
+  { "id": "devpanel",  "name": "Dev Panel",  "url": "tool.js",      "description": "แผงเครื่องมือดีบัก" }
+]

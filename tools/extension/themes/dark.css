@@ -1,0 +1,20 @@
+:root {
+  color-scheme: dark;
+}
+html, body {
+  background: #0f1419 !important;
+  color: #e6e9ea !important;
+}
+a { color: #1d9bf0 !important; }
+header, nav, aside {
+  background: #0f1419 !important;
+}
+[data-testid="primaryColumn"],
+[data-testid="sidebarColumn"] {
+  background: #15202b !important;
+}
+article[role="article"] {
+  background: #111820 !important;
+  border-radius: 12px !important;
+  border: 1px solid #1f2a34 !important;
+}

@@ -1,0 +1,11 @@
+:root { color-scheme: light; }
+html, body { background: #f4ecd8 !important; color: #3b2f2f !important; }
+a { color: #b05f3c !important; }
+header, nav, aside { background: #f0e5cd !important; }
+[data-testid="primaryColumn"],
+[data-testid="sidebarColumn"] { background: #f7efdc !important; }
+article[role="article"] {
+  background: #f8f1df !important;
+  border: 1px solid #e0d3b8 !important;
+  border-radius: 12px !important;
+}

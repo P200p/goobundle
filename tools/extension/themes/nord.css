@@ -1,0 +1,8 @@
+/* Nord theme */
+:root { color-scheme: dark; }
+html, body { background: #2e3440 !important; color: #e5e9f0 !important; }
+a { color: #88c0d0 !important; }
+header, nav, aside { background: #2e3440 !important; }
+[data-testid="primaryColumn"],
+[data-testid="sidebarColumn"] { background: #3b4252 !important; }
+article[role="article"] { background: #2f3642 !important; border: 1px solid #434c5e !important; border-radius: 12px !important; }

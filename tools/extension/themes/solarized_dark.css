@@ -1,0 +1,8 @@
+/* Solarized Dark */
+:root { color-scheme: dark; }
+html, body { background: #002b36 !important; color: #93a1a1 !important; }
+a { color: #268bd2 !important; }
+header, nav, aside { background: #002b36 !important; }
+[data-testid="primaryColumn"],
+[data-testid="sidebarColumn"] { background: #073642 !important; }
+article[role="article"] { background: #002b36 !important; border: 1px solid #073642 !important; border-radius: 12px !important; }

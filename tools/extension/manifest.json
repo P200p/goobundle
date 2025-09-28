@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "X/Twitter Multi-Theme",
+  "version": "0.1.0",
+  "description": "Switch between multiple themes on X/Twitter.",
+  "permissions": ["scripting", "storage", "declarativeContent", "tabs"],
+  "host_permissions": ["https://twitter.com/*", "https://x.com/*"],
+  "background": { "service_worker": "service_worker.js" },
+  "action": { "default_title": "X Themes", "default_popup": "popup.html" },
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  }
+}

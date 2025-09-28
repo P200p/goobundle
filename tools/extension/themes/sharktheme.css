@@ -1,0 +1,22 @@
+:root { color-scheme: light; }
+html, body { background: #07076aa9 !important; color: #021f78 !important; }
+a { color: #f40f0f !important; }
+header, nav, aside { background: #040232 !important; }
+[data-testid="primaryColumn"],
+[data-testid="sidebarColumn"] { background: #1e029bb4 !important; }
+article[role="article"] {
+  background: #039901 !important;
+  border: 1px solid #f40000 !important;
+  border-radius: 12px !important;
+}
+/* Vibrant Purple theme: high contrast, clear layer separators */
+:root { color-scheme: dark; }
+:root {
+  --bg: #0a0710;
+  --panel: #140b1f;
+  --text: #ffffff;
+  --muted: #e6d0ff;
+  --accent: #9b59ff;
+  --border: #2c0960;
+  --border-strong: #2c5c07;
+}

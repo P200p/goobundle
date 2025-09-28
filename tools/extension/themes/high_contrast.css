@@ -1,0 +1,8 @@
+/* High Contrast */
+:root { color-scheme: dark; }
+html, body { background: #000 !important; color: #fff !important; }
+a { color: #0ff !important; }
+header, nav, aside { background: #000 !important; }
+[data-testid="primaryColumn"],
+[data-testid="sidebarColumn"] { background: #000 !important; }
+article[role="article"] { background: #000 !important; border: 2px solid #fff !important; border-radius: 12px !important; }

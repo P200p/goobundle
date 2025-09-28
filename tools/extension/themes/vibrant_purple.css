@@ -1,0 +1,68 @@
+/* Vibrant Purple theme: high contrast, clear layer separators */
+:root { color-scheme: dark; }
+:root {
+  --bg: #0a0710;
+  --panel: #140b1f;
+  --text: #ffffff;
+  --muted: #e6d0ff;
+  --accent: #9b59ff;
+  --border: #3a1a6a;
+  --border-strong: #5e27a8;
+}
+
+html, body { background: var(--bg) !important; color: var(--text) !important; }
+a { color: var(--accent) !important; }
+
+header, nav, aside { background: var(--bg) !important; border-bottom: 1px solid var(--border) !important; }
+[data-testid="primaryColumn"], [data-testid="sidebarColumn"] { background: var(--bg) !important; }
+
+article[role="article"] {
+  background: var(--panel) !important;
+  border: 2px solid var(--border-strong) !important;
+  border-left: 4px solid var(--accent) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 2px 0 var(--accent), 0 0 0 1px var(--border) inset !important;
+}
+
+div[role="separator"], hr {
+  height: 0 !important;
+  border: 0 !important;
+  border-top: 1px dashed var(--border-strong) !important;
+}
+
+[role="textbox"], textarea, input {
+  background: var(--panel) !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border-strong) !important;
+  box-shadow: 0 0 0 1px var(--accent) inset !important;
+}
+
+/* Buttons: increase saturation */
+[data-testid="tweetButtonInline"], [role="button"] {
+  filter: saturate(1.2);
+}
+article[role="article"] {
+  background: var(--panel) !important;
+  border: 2px solid var(--border-strong) !important;
+  border-left: 4px solid var(--accent) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 2px 0 var(--accent), 0 0 0 1px var(--border) inset !important;
+}
+
+div[role="separator"], hr {
+  height: 0 !important;
+  border: 0 !important;
+  border-top: 1px dashed var(--border-strong) !important;
+}
+
+[role="textbox"], textarea, input {
+  background: var(--panel) !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border-strong) !important;
+  box-shadow: 0 0 0 1px var(--accent) inset !important;
+}
+
+/* Buttons: increase saturation */
+[data-testid="tweetButtonInline"], [role="button"] {
+  filter: saturate(1.2);
+}

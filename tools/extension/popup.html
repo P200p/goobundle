@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>X Themes</title>
+  <style>
+    body { font-family: system-ui, sans-serif; padding:12px; min-width:260px; max-width:340px; }
+    select, button, input[type=file] { width:100%; padding:10px; border-radius:8px; border:1px solid #ccc; }
+    .row { margin-bottom:10px; }
+    .grid { display:grid; grid-template-columns: 1fr 1fr; gap:8px; }
+    .small { font-size:12px; color:#666; text-align:center; margin-top:6px; }
+  </style>
+</head>
+<body>
+  <div class="row">
+    <label for="theme">Theme</label>
+    <select id="theme"></select>
+  </div>
+  <div class="grid">
+    <button id="random">Random (Preview)</button>
+    <button id="apply">Save</button>
+  </div>
+  <div class="grid" style="margin-top:8px;">
+    <button id="export">Export</button>
+    <label class="btn">
+      <input id="import" type="file" accept="application/json" style="display:none;" />
+      <span style="display:inline-block; width:100%; padding:10px; border:1px solid #ccc; border-radius:8px; text-align:center; cursor:pointer;">Import</span>
+    </label>
+  </div>
+  <div class="small">Tip: Use Random to preview. Save to keep.</div>
+  <script src="popup.js"></script>
+</body>
+</html>

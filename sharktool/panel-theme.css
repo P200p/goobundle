@@ -1,0 +1,17 @@
+/* Panel Theme: Light */
+.panel-theme-light {
+  background: #00ffccaa;
+  color: #F0F0F0;
+  border: 2px solid #ff0000;
+  box-shadow: 0 0 10px #ff0000aa;
+  font-family: 'Press Start 2P', monospace;
+}
+
+/* Panel Theme: Dark */
+.panel-theme-dark {
+  background: #111;
+  color: #0f0;
+  border: 2px solid #ff0000;
+  box-shadow: 0 0 10px #ff0000aa;
+  font-family: 'Press Start 2P', monospace;
+}
